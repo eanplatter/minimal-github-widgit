@@ -1,31 +1,24 @@
-# Replace with your username here.
-uname = "eanplatter"
-username: uname
+githubUsername = "eanplatter"
+username: githubUsername
 rotate = 0
-command: "curl -s https://github.com/users/#{uname}/contributions"
+command: "curl -s https://github.com/users/#{githubUsername}/contributions"
 
 refreshFrequency: 3600000 # 1 hour
 
 style: """
-.container
+.contributions
 	position: absolute
 	top: 35px
-	opacity:0.9
-.calendar-graph
 	transform: rotate(#{rotate}deg)
-	background-color: transparent
 	font-size: 0px
 """
 
 render: (output) -> """
-<div class="container">
-	<div class="calendar-graph"></div>
-</div>
+	<div class="contributions"></div>
 """
 afterRender: (widget) ->
 	$(widget).draggable()
-update: (output, domEl) ->
-	calendar = $($.parseHTML(output))
-	$(domEl)
-		.find('.calendar-graph')
-		.html(calendar)
+
+update: (output) ->
+	contributionData = $($.parseHTML(output))
+	$('.contributions').html(contributionData)
