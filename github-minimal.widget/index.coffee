@@ -17,8 +17,17 @@ style: """
 render: (output) -> """
 	<div class="contributions"></div>
 """
+
 afterRender: (widget) ->
-	$(widget).draggable()
+  # this is a bit of a hack until jQuery UI is included natively
+  $.ajax({
+    url: "https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js",
+    cache: true,
+    dataType: "script",
+    success: ->
+      $(widget).draggable()
+      return
+  })
 
 update: (output) ->
 	contributionData = $($.parseHTML(output))
