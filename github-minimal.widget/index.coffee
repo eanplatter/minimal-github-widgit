@@ -1,6 +1,7 @@
 githubUsername = "eanplatter"
+rotate = 90
+
 username: githubUsername
-rotate = 0
 command: "curl -s https://github.com/users/#{githubUsername}/contributions"
 
 refreshFrequency: 3600000 # 1 hour
