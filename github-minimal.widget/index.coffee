@@ -1,5 +1,5 @@
 githubUsername = "eanplatter"
-rotate = 90
+rotate = 0
 
 username: githubUsername
 command: "curl -s https://github.com/users/#{githubUsername}/contributions"
