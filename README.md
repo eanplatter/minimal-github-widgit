@@ -7,7 +7,7 @@
 
 ## Screenshots
 ### 90°
-![GitHub contributions graph widget for übersicht 90°](screenshot.png)
+![GitHub contributions graph widget for übersicht 90°](screenshot1.png)
 
 ### 0°
 ![GitHub contributions graph widget for übersicht 0°](screenshot2.png)
