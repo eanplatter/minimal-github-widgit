@@ -2,7 +2,7 @@
   <img alt="enclave" src="./screenshot0.png" width="546">
 </p>
 <p align="center">
-  This is a minimal GitHub contributions graph widget for <a href="http://tracesof.net/uebersicht/">Übersicht</a>.
+  A minimal GitHub contributions graph widget for <a href="http://tracesof.net/uebersicht/">Übersicht</a>.
 </p>
 
 ## Screenshots
