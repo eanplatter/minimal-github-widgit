@@ -1,4 +1,4 @@
-githubUsername = "eanplatter"
+githubUsername = "YOUR GITHUB USERNAME"
 rotate = 0
 
 username: githubUsername
