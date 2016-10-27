@@ -16,7 +16,7 @@
 Download the zipped folder and unzip it into your widgets folder.
 
 ## Username
-Be sure to change the `uname` variable from `"eanplatter"` to your github username.
+Be sure to change the `uname` variable from `"YOUR GITHUB USERNAME"` to your github username.
 
 ## Rotate
 To rotate go to the `index.coffee` file and change the `rotate` variable from 0 to whatever you want. `90` will get you the 90 degree look shown in the screenshot.
